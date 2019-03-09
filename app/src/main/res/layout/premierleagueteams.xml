@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.something.andy.premierleagueapp_officalteamsites2018_2019.MainActivity"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="35dp">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/arsenal"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/arsenal"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/arsenaltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/arsenal"
+                android:layout_marginStart="24dp"
+                android:text="Arsenal"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/cardiff"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/cardiff"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/cardifftext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/arsenal"
+                android:layout_marginStart="15dp"
+                android:text="Cardiff City"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/fulham"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/fulham"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/fulhamtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fulham"
+                android:layout_marginStart="25dp"
+                android:text="Fulham"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/manchestercity"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/manchestercity"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/manctext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fulham"
+                android:layout_marginStart="4dp"
+                android:text="Manchester City"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/tottenham"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/tottenham"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/tottenhamtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fulham"
+                android:layout_marginStart="15dp"
+                android:text="Tottenham"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/bournemouth"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/bournemouth"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/bournemouthtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/arsenal"
+                android:layout_marginStart="12dp"
+                android:text="Bournemouth"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/chelsea"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/chelsea"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/chelseatext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/arsenal"
+                android:layout_marginStart="23dp"
+                android:text="Chelsea"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/huddersfield"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/huddersfield"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/huddersfieldtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cardifftext"
+                android:layout_marginStart="13dp"
+                android:text="Huddersfield"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/manchesterunited"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/manchesterunited"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/manutext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fulham"
+                android:layout_marginStart="0dp"
+                android:textSize="10dp"
+                android:text="Manchester United"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/watford"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/watford"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/watfordtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/fulham"
+                android:layout_marginStart="22dp"
+                android:text="Watford"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/brighton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/brighton"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/brightontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="22dp"
+                android:text="Brighton"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/crystalpalace"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/crystalpalace"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/crystaltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/crystalpalace"
+                android:layout_marginStart="8dp"
+                android:text="Crystal Palace"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/leicestercity"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/leicestercity"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/leicestertext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cardifftext"
+                android:layout_marginStart="9dp"
+                android:text="Leicester City"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/newcastle"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/newcastle"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/newcastletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/newcastle"
+                android:layout_marginStart="18dp"
+                android:text="Newcastle"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/westham"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/westham"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/westhamtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/westham"
+                android:layout_marginStart="17dp"
+                android:text="West Ham"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/burnley"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/burnley"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/burnleytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="23dp"
+                android:text="Burnley"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/everton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/everton"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/evertontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/everton"
+                android:layout_marginStart="24dp"
+                android:text="Everton"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/liverpool"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/liverpool"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/liverpooltext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/liverpool"
+                android:layout_marginStart="20dp"
+                android:text="Liverpool"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/southampton"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/southampton"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/southamptontext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/southampton"
+                android:layout_marginStart="10dp"
+                android:text="Southampton"
+                android:textSize="10dp"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/wolves"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/wolverhampton"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp"
+                app:layout_constraintBottom_toBottomOf="@+id/textView"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <TextView
+                android:id="@+id/wolvestext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/wolves"
+                android:layout_marginStart="5dp"
+                android:textSize="10dp"
+                android:text="Wolverhampton"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="160dp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

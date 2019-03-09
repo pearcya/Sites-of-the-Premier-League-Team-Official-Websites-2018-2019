@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.something.andy.premierleagueapp_officalteamsites2018_2019">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PickingTeam">
+            <intent-filter>
+                <action android:name="android.intent.action.PICKINGTEAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Arsenal">
+            <intent-filter>
+                <action android:name="android.intent.action.ARSENAL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Bournemouth">
+            <intent-filter>
+                <action android:name="android.intent.action.BOURNEMOUTH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Brighton">
+            <intent-filter>
+                <action android:name="android.intent.action.BRIGHTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Burnley">
+            <intent-filter>
+                <action android:name="android.intent.action.BURNLEY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CardiffCity">
+            <intent-filter>
+                <action android:name="android.intent.action.CARDIFFCITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Chelsea">
+            <intent-filter>
+                <action android:name="android.intent.action.CHELSEA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CrystalPalace">
+            <intent-filter>
+                <action android:name="android.intent.action.CRYSTALPALACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Everton">
+            <intent-filter>
+                <action android:name="android.intent.action.EVERTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Fulham">
+            <intent-filter>
+                <action android:name="android.intent.action.FULHAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Huddersfield">
+            <intent-filter>
+                <action android:name="android.intent.action.HUDDERSFIELD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LeicesterCity">
+            <intent-filter>
+                <action android:name="android.intent.action.LEICESTERCITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Liverpool">
+            <intent-filter>
+                <action android:name="android.intent.action.LIVERPOOL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ManchesterCity">
+            <intent-filter>
+                <action android:name="android.intent.action.MANCHESTERCITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ManchesterUnited">
+            <intent-filter>
+                <action android:name="android.intent.action.MANCHESTERUNITED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Newcastle">
+            <intent-filter>
+                <action android:name="android.intent.action.NEWCASTLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Southampton">
+            <intent-filter>
+                <action android:name="android.intent.action.SOUTHAMPTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Tottenham">
+            <intent-filter>
+                <action android:name="android.intent.action.TOTTENHAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Watford">
+            <intent-filter>
+                <action android:name="android.intent.action.WATFORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WestHam">
+            <intent-filter>
+                <action android:name="android.intent.action.WESTHAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Wolverhampton">
+            <intent-filter>
+                <action android:name="android.intent.action.WOLVERHAMPTON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
